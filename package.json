@@ -1,0 +1,21 @@
+{
+  "name": "level-access-code-sample",
+  "version": "1.0.0",
+  "description": "Code example for Level Access accessibility consultant opportunity",
+  "main": "index.html",
+  "scripts": {
+    "serve": "http-server -p 3333",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Dodson <william.dodson@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "http-server": "^0.11.1",
+    "node-sass": "^4.12.0"
+  }
+}

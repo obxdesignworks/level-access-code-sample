@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Level Access Code Example by William Dodson</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <main>
+    <h1>Login</h1>
+
+    <form action="thankyou.html" class="form--login" id="login-form" method="post">
+      <div class="form__item">
+        <label class="form__label" for="username">User Name:</label> 
+        <input autocomplete="off" class="form__input" id="username" name="username" placeholder="Please enter your username" type="text" data-validate-field="name" required>
+      </div>
+
+      <div class="form__item">
+        <label class="form__label" for="password">Password:</label> 
+        <input autocomplete="off" class="form__input" id="password" name="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" placeholder="Please enter your password" type="password" data-validate-field="password" required aria-describedby="password-help">
+        <p class="help-text" id="password-help">
+          <small>Your password must include one capital letter, one lower case letter, and at least one number.</small>
+        </p>
+      </div>
+
+      <input class="button button--submit" type="submit" value="Continue">
+    </form>
+  </main>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
